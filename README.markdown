@@ -17,7 +17,7 @@ clear(ctx); // ctx is canvas 2D context.
 
 ## Demo 
 
-Checkout the live [demo](http://requirebin.com/?gist=48c497080c0d4f1dea9a).
+Checkout the live [demo](http://requirebin.com/?gist=a16d9e7380ca40a7dd96).
 
 ## API
 
