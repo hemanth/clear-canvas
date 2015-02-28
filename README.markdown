@@ -19,6 +19,31 @@ clear(ctx); // ctx is canvas 2D context.
 
 Checkout the live [demo](http://requirebin.com/?gist=a16d9e7380ca40a7dd96).
 
+```js
+clear = require('clear-canvas');
+
+//canvas setup
+var canvas  =  document.createElement('canvas');
+canvas.width = '500';
+canvas.height = '300';
+canvas.style.outline = "1px solid black";
+document.body.appendChild(canvas);
+
+// Get the context.
+var ctx = canvas.getContext('2d');
+
+// Draw a triangle.
+ctx.beginPath();
+ctx.moveTo(20,20);
+ctx.lineTo(200,20);
+ctx.lineTo(120,120);
+ctx.closePath();
+ctx.stroke();
+
+// Clear the canvas after 1000ms.
+setTimeout( function() {clear(ctx, true);}.bind(this), 1000);
+```
+
 ## API
 
 ```js
