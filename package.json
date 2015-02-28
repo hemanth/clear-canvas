@@ -1,6 +1,6 @@
 {
   "name": "clear-canvas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Clear Canvas.",
   "main": "index.js",
   "scripts": {
