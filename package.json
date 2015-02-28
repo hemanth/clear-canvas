@@ -1,7 +1,7 @@
 {
   "name": "clear-canvas",
   "version": "1.0.1",
-  "description": "",
+  "description": "Clear Canvas.",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
